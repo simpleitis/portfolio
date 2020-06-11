@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Amar Krishna</title>
+    <link>https://simpleitis.github.io/portfolio/post/</link>
+    <description>Recent content in Projects on Amar Krishna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://simpleitis.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project 1 (Drowsiness detection)</title>
+      <link>https://simpleitis.github.io/portfolio/post/chapter1/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      
+      <guid>https://simpleitis.github.io/portfolio/post/chapter1/</guid>
+      <description>Driver drowsiness detection is a car safety Technology which helps prevent accidents caused by the driver getting drowsy Various studies have suggested that around 20% of all road accidents are fatigue-related, up to 50% on certain roads.    Git hub repo</description>
+    </item>
+    
+    <item>
+      <title>Project 2 (Meme classifier)</title>
+      <link>https://simpleitis.github.io/portfolio/post/chapter2/</link>
+      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      
+      <guid>https://simpleitis.github.io/portfolio/post/chapter2/</guid>
+      <description>Most phones are loaded with memes which occupy a lot of space This model helps you find all those images and delete them from your phone    Git hub repo</description>
+    </item>
+    
+  </channel>
+</rss>
