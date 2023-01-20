@@ -6,25 +6,41 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Works from './components/Works';
+import Credits from './Credits';
 import { Fade } from 'react-awesome-reveal';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="bg-[#0a192f]">
-            <Navbar />
-            <Fade cascade damping={0.1} fraction={0.3} triggerOnce>
-                <Home />
-
-                <About />
-
-                <Skills />
-
-                <Works />
-
-                <Contact />
-            </Fade>
-            <ToastContainer autoClose={4000} position="bottom-center" />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route
+                    path="/"
+                    element={
+                        <div className="bg-[#0a192f]">
+                            <Navbar />
+                            <Fade
+                                cascade
+                                damping={0.1}
+                                fraction={0.3}
+                                triggerOnce
+                            >
+                                <Home />
+                                <About />
+                                <Skills />
+                                <Works />
+                                <Contact />
+                            </Fade>
+                            <ToastContainer
+                                autoClose={4000}
+                                position="bottom-center"
+                            />
+                        </div>
+                    }
+                ></Route>
+                <Route path="/credits" element={<Credits />}></Route>
+            </Routes>
+        </BrowserRouter>
     );
 }
 export default App;

@@ -101,6 +101,15 @@ function Navbar() {
                                         Contact
                                     </Link>
                                 </li>
+                                <li className="border-b border-gray-400 my-8">
+                                    <a
+                                        href="/credits"
+                                        className="group transition duration-300"
+                                    >
+                                        Credits
+                                        <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </section>
@@ -110,7 +119,7 @@ function Navbar() {
                             <Link to="home" smooth={true} duration={500}>
                                 <p className="group transition duration-300">
                                     Home
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
                                 </p>
                             </Link>
                         </li>
@@ -118,7 +127,7 @@ function Navbar() {
                             <Link to="about" smooth={true} duration={500}>
                                 <p className="group transition duration-300">
                                     About
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
                                 </p>
                             </Link>
                         </li>
@@ -126,7 +135,7 @@ function Navbar() {
                             <Link to="skills" smooth={true} duration={500}>
                                 <p className="group transition duration-300">
                                     Skills
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
                                 </p>
                             </Link>
                         </li>
@@ -134,7 +143,7 @@ function Navbar() {
                             <Link to="work" smooth={true} duration={500}>
                                 <p className="group transition duration-300">
                                     Work
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
                                 </p>
                             </Link>
                         </li>
@@ -142,9 +151,18 @@ function Navbar() {
                             <Link to="contact" smooth={true} duration={500}>
                                 <p className="group transition duration-300">
                                     Contact
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
                                 </p>
                             </Link>
+                        </li>
+                        <li>
+                            <a
+                                href="/credits"
+                                className="group transition duration-300"
+                            >
+                                Credits
+                                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-500"></span>
+                            </a>
                         </li>
                     </ul>
                 </nav>

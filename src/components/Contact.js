@@ -10,6 +10,7 @@ const Contact = () => {
             <p className="text-xl sm:text-4xl font-bold border-b-4 text-gray-300 border-cyan-500">
                 amarkrishna25@gmail.com
             </p>
+            
         </div>
     );
 };
