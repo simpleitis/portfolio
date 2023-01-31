@@ -6,7 +6,7 @@ function ProjectCard({name, description, link}) {
           <center>
               <div className="group">
                   <div className="max-w-sm overflow-hidden">
-                      <div className="bg-lime-100 rounded-t px-10 py-5 lg:p-2">
+                      <div className="bg-lime-100 rounded-t p-5 sm:px-10 sm:py-5 lg:p-2">
                           <img
                               className="w-full h-72 p-5"
                               src={`${name}.png`}

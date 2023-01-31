@@ -25,7 +25,7 @@ const Skills = () => {
                     <img
                         className="mb-10"
                         src={`${technology}.png`}
-                        alt="react image"
+                        alt="skill logo"
                         height="80"
                     />{' '}
                 </div>
@@ -60,7 +60,7 @@ const Skills = () => {
     return (
         <div
             name="skills"
-            className="w-full min-h-[88vh] text-gray-300 pt-20 sm:pt-20 2xl:pt-32"
+            className="w-full min-h-[88vh] text-gray-300 sm:pt-20 2xl:pt-32"
         >
             {/* Container */}
             <div className="max-w-[1000px] 2xl:max-w-screen-xl  mx-auto p-4 flex flex-col justify-start w-full h-full">
