@@ -28,6 +28,13 @@ function App() {
                                 <Home />
                                 <About />
                                 <Skills />
+                            </Fade>
+                            <Fade
+                                cascade
+                                damping={0.1}
+                                fraction={0.05}
+                                triggerOnce
+                            >
                                 <Works />
                                 <Contact />
                             </Fade>
